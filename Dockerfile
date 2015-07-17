@@ -1,4 +1,4 @@
-FROM skopciewski/alpine-ruby
+FROM skopciewski/ruby
 
 RUN apk-install libstdc++
 
