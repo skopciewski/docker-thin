@@ -1,6 +1,5 @@
 FROM skopciewski/ruby
 
-RUN apk-install libstdc++
+RUN apk add --no-cache libstdc++
 
 RUN gem-install-ext thin
-
